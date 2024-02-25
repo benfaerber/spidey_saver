@@ -25,6 +25,7 @@ async def user_example():
         await api.create_sessions(ms_tokens=[ms_token], num_sessions=1, sleep_after=3)
         user = api.user(SPIDEY_MAIN)
         user_data = await user.info()
+        print('User Data:')
         print(user_data)
 
         async for video in user.videos(count=30):
