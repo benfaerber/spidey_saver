@@ -34,4 +34,4 @@ async def user_example():
 
 
 if __name__ == "__main__":
-    asyncio.run(user_example())
+zsh:1: command not found: q
